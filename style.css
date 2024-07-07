@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding-inline: 150px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  background-color: #1f2937;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.header-logo-text {
+  color: #f9faf8;
+  flex-grow: 1;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-link {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.header-section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.hero-main-text {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.hero-secondary-text {
+  color: #e5e7eb;
+  font-size: 18px;
+  max-width: 50%;
+  margin-top: 20px;
+}
+
+.sign-up-button {
+  margin-top: 20px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+  padding-inline: 15px;
+  padding-block: 5px;
+}
+
+.information-main-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.image-section-container {
+  display: flex;
+  justify-content: center;
+  margin-block: 50px;
+  column-gap: 40px;
+}
+
+.image-main {
+  margin: auto;
+}
+
+.text-main {
+  max-width: 140px;
+  text-align: center;
+}
+
+.quote-text-section {
+  display: flex;
+  justify-content: center;
+  background-color: #e5e7eb;
+  margin-block: 30px;
+  padding-block: 30px;
+}
+
+.quote-text {
+  font-size: 24px;
+  font-style: italic;
+  color: #1f2937;
+  max-width: 500px;
+}
+
+.quote-author {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: end;
+}
+
+.blue-sign-up-thing {
+  background-color: #3882f6;
+  margin-block: 70px;
+  margin-inline: 200px;
+  padding-block: 80px;
+  border-radius: 10px;
+}
+
+.blue-rectangle {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+.blue-text-first {
+  font-weight: bold;
+  color: #e5e7eb;
+  font-size: 25px;
+}
+
+.blue-text-second {
+  color: #e5e7eb;
+  font-size: 15px;
+}
+
+.button-second {
+  border: 3px solid;
+  border-color:#e5e7eb;
+  border-radius: 7px;
+  padding-inline:10px;
+  padding-block: 5px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#e5e7eb;
+  padding: 15px;
+}
+
+
